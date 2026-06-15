@@ -5,7 +5,7 @@ Click on each topic below to expand and view the detailed C++ source code:
 </details>
 
 <details>
-<summary><b>Bài 1:  Operators: Even or Odd </b></summary>
+<summary><b>Review 1:  Operators: Even or Odd </b></summary>
 
   ```cpp
 #include <iostream>
@@ -25,7 +25,7 @@ int main() {
 </details>
 
 <details>
-<summary><b>Bài 2: Booleans: Voting Age </b></summary>
+<summary><b>Review 2: Booleans: Voting Age </b></summary>
 
   ```cpp
 #include <iostream>
@@ -49,7 +49,7 @@ int main() {
 </details>
 
 <details>
-<summary><b>Bài 3: Conditions: Grade Calculator </b></summary>
+<summary><b>Review 3: Conditions: Grade Calculator </b></summary>
  
   ```cpp
 #include <iostream>
@@ -76,7 +76,7 @@ int main() {
 </details>
 
 <details>
-<summary><b>Bài 4:  Loops: Multiplication Table </b></summary>
+<summary><b>Review 4:  Loops: Multiplication Table </b></summary>
 
    ```cpp
 #include <iostream>
@@ -96,7 +96,7 @@ int main() {
 </details>
 
 <details>
-<summary><b>Bài 5:  Conditions: Leap Year </b></summary>
+<summary><b>Review 5:  Conditions: Leap Year </b></summary>
 
    ```cpp
 #include <iostream>
@@ -116,7 +116,7 @@ int main() {
 </details>
 
 <details> 
-<summary><b>Bài 6: Conditions: Day of Week </b></summary>
+<summary><b>Review 6: Conditions: Day of Week </b></summary>
 
    ```cpp
 #include <iostream>
@@ -156,7 +156,7 @@ int main() {
 </details>
 
 <deatails> 
-<summary><b>Bài 7: Conditions: Triangle Classifier </b></summary>
+<summary><b>Review 7: Conditions: Triangle Classifier </b></summary>
 
   ```cpp
 #include <iostream>
@@ -180,3 +180,18 @@ int main() {
 }
 ```
 </details>
+ <details>
+ <summary><b>Review 8: User input: Rectangle Area </b></summary>
+
+   ```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+	int length,width;
+    cin >> length >> width;
+    cout << "Area = " << length * width;
+	return 0;
+}
+ ```
+ </details>
