@@ -180,8 +180,9 @@ int main() {
 }
 ```
 </details>
- <details>
- <summary><b>Review 8: User input: Rectangle Area </b></summary>
+
+<details>
+<summary><b>Review 8: User input: Rectangle Area </b></summary>
 
    ```cpp
 #include <iostream>
@@ -214,3 +215,20 @@ int main() {
 }
  ```
  </details>
+
+<details>
+<summary><b>Review 10: Conditions: Ternary Operator </b></summary>
+ 
+   ```cpp
+include <iostream>
+using namespace std;
+
+int main() {
+	int a,b,c;
+    cin >> a >> b >> c;
+    int max = (a > b && a > c)? a : (b > c ? b : c);
+    cout << max;
+	return 0;
+}
+ ```
+</details>
