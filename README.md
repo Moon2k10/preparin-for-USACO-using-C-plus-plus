@@ -217,7 +217,7 @@ int main() {
  </details>
 
 <details>
-<summary><b>Review 10: Conditions: Ternary Operator </b></summary>
+<summary><b>Review 10: Conditions: Ternary Operator 1 </b></summary>
  
    ```cpp
 include <iostream>
@@ -231,4 +231,19 @@ int main() {
 	return 0;
 }
  ```
+</details>
+<details>
+<summary><b>Review 11: Conditions: Ternary Operator 2 </b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+	int a;
+    cin >> a;
+    cout << a <<(( a >= 10 && a <= 100) ? " is in the range [10, 100]" : " is not in the range [10, 100]");
+	return 0;
+}
+```
 </details>
