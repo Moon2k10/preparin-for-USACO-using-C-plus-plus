@@ -263,3 +263,20 @@ int main() {
 }
 ```
 </details>
+
+<details>
+<summary><b>Review 12: Conditions: Ternary Operator 4 </b></summary>
+ 
+   ```cpp
+
+#include<iostream>
+using namespace std;
+
+int main() {
+	int a,b,c;
+    cin >> a >> b >> c;
+    cout << ((a <= b && b <= c) ? "increasing" : ( a >= b && b >= c ? "decreasing" : "neither increasing nor decreasing order"));
+	return 0;
+}
+```
+</details>
