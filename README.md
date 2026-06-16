@@ -247,3 +247,19 @@ int main() {
 }
 ```
 </details>
+
+<details>
+<summary><b>Review 12: Conditions: Ternary Operator 3 </b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+	int a;
+    cin >> a;
+    cout << ((a >= 0 && a <= 10) ? "The score is valid" : "The score is not valid");
+	return 0;
+}
+```
+</details>
