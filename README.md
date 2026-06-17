@@ -367,3 +367,23 @@ int main() {
 }
 ```
 </details>
+
+<details>
+<summary><b>Review 17: For loop 4</b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    int sum = 0;
+    cin >> a >> b;
+    for (int i = a; i <= b; i++){
+        sum = sum + i;
+    }
+    cout << sum;
+    return 0;
+}
+ ```
+</details>
