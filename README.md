@@ -350,3 +350,20 @@ int main() {
  ```
 </details>
 
+<details>
+<summary><b>Review 16: For loop 3</b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    for ( int i = n; i >= -5; i--){
+        cout << i << " ";
+    }
+    return 0;
+}
+```
+</details>
