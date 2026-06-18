@@ -389,7 +389,7 @@ int main() {
 </details>
 
 <details>
-<summary><b>Review 18: For loop 5</b></summary>
+<summary><b>Review 18: Accumulating </b></summary>
  
    ```cpp
 #include<iostream>
@@ -444,6 +444,26 @@ int main() {
       factorial = factorial * i;
     }
     cout << factorial;
+    return 0;
+}
+ ```
+</details>
+
+<details>
+<summary><b>Review 21: For loop 8: Divisor </b></summary>
+ 
+   ```cpp		
+#include<iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++){
+        if (n % i == 0){
+            cout << i << " ";
+        }
+    }
     return 0;
 }
  ```
