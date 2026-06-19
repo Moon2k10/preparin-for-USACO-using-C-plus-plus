@@ -489,3 +489,27 @@ while (n <= 100) {
 }
    ```
 </details>
+
+<details>
+<summary><b>Review 23: While loop 2 </b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+int n;
+cin >> n;
+int count = 0;
+int i = 1;
+while (i <= n){
+   if (n % i == 0){
+   count ++;
+  }
+   i ++;
+}
+   cout << count;
+return 0;
+}
+ ```
+</details>
