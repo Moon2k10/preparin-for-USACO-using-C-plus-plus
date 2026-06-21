@@ -534,3 +534,24 @@ int main() {
 }
 ```
 </details>
+
+<details>
+<summary><b>Review 25: While loop 4 </b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin >> a >> b;
+    while (a <= b){
+        if (a % 5 == 0 && a % 3 == 0){
+            cout << a << " ";
+        }
+        a++;
+    }
+    return 0;
+}
+```
+</details>
