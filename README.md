@@ -513,3 +513,24 @@ return 0;
 }
  ```
 </details>
+
+<details>
+<summary><b>Review 24: While loop 3 </b></summary>
+ 
+   ```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin >> a >> b;
+    int answer = 1;
+    while (b > 0){
+        answer *= a;
+        b--;
+    }
+    cout << answer;
+    return 0;
+}
+```
+</details>
